@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #8d93ab;
+}
+header {
+  background-color: #393b44;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+h1 {
+  font-size: 3rem;
+  color: #d6e0f0;
+}
+.desafio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.children {
+  width: 25%;
+  margin: 5px;
+  height: auto;
+}
+img {
+  opacity: 25%;
+}
+img:hover {
+  opacity: 100%;
+}
+.container {
+  display: flex;
+  width: 900px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.heart {
+  border: 5px solid;
+  border-color: #f7f5dd;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 250px;
+}
+.kitty {
+  border: 5px solid;
+  border-color: #765b58;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+}
+.dog {
+  border: 5px solid;
+  border-color: #b8e3ea;
+  border-radius: 50px;
+}
+.cup {
+  border: 5px solid;
+  border-color: #faf3dd;
+  border-radius: 25px;
+}
+.sky {
+  border: 5px solid;
+  border-color: #c3aed6;
+}
+.moon {
+  border: 5px solid;
+  border-color: #8bcdcd;
+  border-radius: 10px;
+}
+.bird {
+  border: 5px solid;
+  border-color: #838383;
+  border-radius: 15px;
+}
+
+.pizza {
+  border: 5px solid;
+  border-color: #e2dad0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 200px;
+  height: auto;
+}
+.cake {
+  width: 400px;
+  height: auto;
+}
+.cake2 {
+  border: 5px solid;
+  border-color: #825b4a;
+  border-radius: 30px;
+}
+a:hover {
+  width: 60%;
+}
+.tree {
+  border: 5px solid;
+  border-color: #cff6cf;
+  border-radius: 100px;
+  width: 200px;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .children {
+    width: 80%;
+  }
+}
